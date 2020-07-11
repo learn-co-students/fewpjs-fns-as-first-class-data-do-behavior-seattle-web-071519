@@ -28,6 +28,5 @@ function displayMessage(greetStr) {
 
 function DisplayMessage2(greetStr) {
   let node = document.getElementById("greeting");
-  node.removeChild();
   node.appendChild(document.createTextNode(greetStr));
 }
