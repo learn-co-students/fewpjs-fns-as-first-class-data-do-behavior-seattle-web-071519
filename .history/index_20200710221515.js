@@ -32,6 +32,7 @@ function DisplayMessage2(greetStr) {
   node.appendChild(document.createTextNode(greetStr));
 }
 
-function displayMessage3(greetStr) {
-  document.getElementById("greeting").textContent = greetStr;
+function displayMessage3(greetStr){
+  document.getElementById('greeting').textContent = “New content”
 }
+
